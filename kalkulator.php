@@ -9,11 +9,11 @@
           <input type="text" name="num1" placeholder="Prvi broj">
           <input type="text" name="num2" placeholder="Drugi broj">
           <select name="operator">
-             <option>Nista</option>
-             <option>Sabiranje</option>
-             <option>Oduzimanje</option>
-             <option>Mnozenje</option>
-             <option>Deljenje</option>
+             <option value=''>Nista</option>
+             <option value="+">Sabiranje</option>
+             <option value="-">Oduzimanje</option>
+             <option value="*">Mnozenje</option>
+             <option value="/">Deljenje</option>
           </select>
           <br>
           <button type="sumbit" name="sumbit" value="sumbit">Izracunaj</button>
